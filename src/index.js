@@ -26,23 +26,19 @@ function render() {
 
   tasks
     .sort((a, b) => a.index - b.index)
-    .forEach((task) => {
+    .forEach((t) => {
       listParent.innerHTML += `
       <li>
         <div class="content">
-          <input class="check" type="checkbox" ${
-            task.completed ? 'checked' : ''
-          }/>
-          <input class="input" type="text" value='${
-            task.description
-          }' readonly />
+          <input class="check" type="checkbox" ${t.completed ? 'checked' : ''}/>
+          <input class="input" type="text" value='${t.description}' readonly />
         </div>
         <div class="actions">
           <span class="material-icons drag">more_vert</span>
           <span class="material-icons hide">delete_outline</span>
         </div>
       </li>
-    `;
+      `;
     });
 }
 
