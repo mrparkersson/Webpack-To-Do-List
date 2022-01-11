@@ -1,27 +1,27 @@
-# Webpack Boilerplate
+# Microverse ToDo List
 
-A basic webpack boilerplate, ready to be used immediately, no configuration needed. It doesn't tell you, which framework or library you should be using, it contains only a handful of modules:
+this is a minimalist ToDo list app, to add, update and remove tasks easily.
+right now you can't do anything, but by the end of this week it will be fully functional.
 
+## Built using
+
+- HTML
+- CSS
+- JavaScript
 - Webpack
-- html-webpack-plugin
-- css-loader
-- style-loader
-- webpack-dev-server
-
-Everything else is up to you.
 
 ## Usage
 
 start by cloning this repository by running:
 
 ```
-git clone https://github.com/rachidelaid/webpack-boilerplate.git
+git clone https://github.com/rachidelaid/microverse-todo-list.git
 ```
 
 cd to the folder
 
 ```
-cd webpack-boilerplate
+cd microverse-todo-list
 ```
 
 run this command to install all the packages needed
