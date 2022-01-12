@@ -70,3 +70,8 @@ span:hover,
 .clear:hover {
   color: #000;
 }
+
+.task{
+  display: flex;
+  justify-content: space-between;
+}
