@@ -1,6 +1,12 @@
 import 'material-icons/iconfont/material-icons.css';
 import './style.css';
 
+
+=======
+import 'material-icons/iconfont/material-icons.css';
+import './style.css';
+
+
 const listParent = document.querySelector('.list');
 
 const tasks = [

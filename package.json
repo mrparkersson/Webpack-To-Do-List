@@ -1,7 +1,7 @@
 {
   "name": "webpacktodolist",
   "version": "1.0.0",
-  "description": "",
+  "description": "![](https://img.shields.io/badge/mrparkersson-blueviolet)",
   "private": true,
   "scripts": {
     "build": "webpack",
@@ -20,5 +20,18 @@
   },
   "dependencies": {
     "material-icons": "^1.10.5"
+ 
   }
+
+  },
+  "main": "webpack.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrparkersson/Webpack-To-Do-List.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mrparkersson/Webpack-To-Do-List/issues"
+  },
+  "homepage": "https://github.com/mrparkersson/Webpack-To-Do-List#readme"
+ 
 }
