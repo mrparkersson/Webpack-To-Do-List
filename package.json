@@ -1,7 +1,7 @@
 {
-  "name": "webpack-boilerplate",
+  "name": "webpacktodolist",
   "version": "1.0.0",
-  "description": "A basic webpack boilerplate, ready to be used immediately, no configuration needed. It doesn't tell you, which framework or library you should be using, it contains only a handful of modules:",
+  "description": "![](https://img.shields.io/badge/mrparkersson-blueviolet)",
   "private": true,
   "scripts": {
     "build": "webpack",
@@ -14,17 +14,20 @@
     "css-loader": "^6.5.1",
     "html-webpack-plugin": "^5.5.0",
     "style-loader": "^3.3.1",
-    "webpack": "^5.66.0",
+    "webpack": "^5.65.0",
     "webpack-cli": "^4.9.1",
     "webpack-dev-server": "^4.7.2"
+  },
+  "dependencies": {
+    "material-icons": "^1.10.5"
   },
   "main": "webpack.config.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rachidelaid/microverse-todo-list.git"
+    "url": "git+https://github.com/mrparkersson/Webpack-To-Do-List.git"
   },
   "bugs": {
-    "url": "https://github.com/rachidelaid/microverse-todo-list/issues"
+    "url": "https://github.com/mrparkersson/Webpack-To-Do-List/issues"
   },
-  "homepage": "https://github.com/rachidelaid/microverse-todo-list#readme"
+  "homepage": "https://github.com/mrparkersson/Webpack-To-Do-List#readme"
 }
