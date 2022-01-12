@@ -25,7 +25,7 @@ function renderHtml() {
   listParent.innerHTML = '';
 
   tasks.sort((a, b) => a.index - b.index).forEach((task) => {
-  listParent.innerHTML += `
+    listParent.innerHTML += `
       <li>
         <div class="content">
           <input class="check" type="checkbox" ${
@@ -41,7 +41,7 @@ function renderHtml() {
         </div>
       </li>
       `;
- });
+  });
 }
 
 renderHtml();
