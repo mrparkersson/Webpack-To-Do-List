@@ -20,11 +20,11 @@ function renderHtml() {
       <li draggable=true>
         <div class="content">
           <input class="check" type="checkbox" ${
-            task.completed ? 'checked' : ''
-          }/>
+  task.completed ? 'checked' : ''
+}/>
           <input class="input" type="text" value='${
-            task.description
-          }' readonly />
+  task.description
+}' readonly />
         </div>
         <div class="actions">
           <span class="material-icons drag">more_vert</span>
@@ -58,11 +58,11 @@ returnIcon.addEventListener('click', () => {
      <li draggable ="true" id="${task.index}">
        <div class="content">
          <input class="check" type="checkbox" ${
-           task.completed ? 'checked' : ''
-         }/>
+  task.completed ? 'checked' : ''
+}/>
          <input class="input" type="text" value='${
-           task.description
-         }' readonly />
+  task.description
+}' readonly />
        </div>
        <div class="actions">
          <span class="material-icons drag">more_vert</span>
@@ -73,14 +73,14 @@ returnIcon.addEventListener('click', () => {
       });
       const deletButton = document.querySelectorAll('#deleteicon');
 
-      deletButton.forEach((x) =>
+      deletButton.forEach((x) => {
         x.addEventListener('click', () => {
           const id = Number(x.parentNode.parentNode.id);
           tasks = tasks.filter((task) => task.index !== id);
           updateTasks();
           localStorage.setItem('todos', JSON.stringify(tasks));
-        })
-      );
+        });
+      });
     };
     updateTasks();
   }
