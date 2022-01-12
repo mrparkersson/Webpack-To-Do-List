@@ -11,27 +11,31 @@ const tasks = [
   },
   {
     index: 1,
-    description: 'Complete To Do list Project',
+    description: 'Complete To Do project',
     completed: false,
   },
   {
     index: 2,
-    description: 'Build another template',
+    description: 'Fix my car',
     completed: false,
   },
 ];
 
-function render() {
+function renderHtml() {
   listParent.innerHTML = '';
 
   tasks
     .sort((a, b) => a.index - b.index)
-    .forEach((t) => {
+    .forEach((task) => {
       listParent.innerHTML += `
       <li>
         <div class="content">
-          <input class="check" type="checkbox" ${t.completed ? 'checked' : ''}/>
-          <input class="input" type="text" value='${t.description}' readonly />
+          <input class="check" type="checkbox" ${
+            task.completed ? 'checked' : ''
+          }/>
+          <input class="input" type="text" value='${
+            task.description
+          }' readonly />
         </div>
         <div class="actions">
           <span class="material-icons drag">more_vert</span>
@@ -42,4 +46,4 @@ function render() {
     });
 }
 
-render();
+renderHtml();

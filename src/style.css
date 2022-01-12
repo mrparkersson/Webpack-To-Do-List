@@ -7,7 +7,7 @@
 }
 
 body {
-  font-family: 'Courier New', Courier, monospace;
+  font-family: Arial, Helvetica, sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -34,7 +34,7 @@ li {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 150px;
+  gap: 170px;
   padding: 10px;
   border-bottom: 1px solid rgb(230, 230, 230);
 }
