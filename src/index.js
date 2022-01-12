@@ -6,17 +6,17 @@ const listParent = document.querySelector('.list');
 const tasks = [
   {
     index: 0,
-    description: 'test 1',
+    description: 'wash the dishes',
     completed: true,
   },
   {
     index: 1,
-    description: 'test 2',
+    description: 'Complete To Do list Project',
     completed: false,
   },
   {
     index: 2,
-    description: 'test 3',
+    description: 'Build another template',
     completed: false,
   },
 ];
