@@ -25,15 +25,15 @@ function renderHtml() {
   listParent.innerHTML = '';
 
   tasks.sort((a, b) => a.index - b.index).forEach((task) => {
-      listParent.innerHTML += `
+  listParent.innerHTML += `
       <li>
         <div class="content">
           <input class="check" type="checkbox" ${
-            task.completed ? 'checked' : ''
-          }/>
+  task.completed ? 'checked' : ''
+}/>
           <input class="input" type="text" value='${
-            task.description
-          }' readonly />
+  task.description
+}' readonly />
         </div>
         <div class="actions">
           <span class="material-icons drag">more_vert</span>
@@ -41,7 +41,7 @@ function renderHtml() {
         </div>
       </li>
       `;
-    });
+ });
 }
 
 renderHtml();
