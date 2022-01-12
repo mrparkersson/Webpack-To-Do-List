@@ -1,7 +1,7 @@
 {
   "name": "webpack-boilerplate",
   "version": "1.0.0",
-  "description": "",
+  "description": "A basic webpack boilerplate, ready to be used immediately, no configuration needed. It doesn't tell you, which framework or library you should be using, it contains only a handful of modules:",
   "private": true,
   "scripts": {
     "build": "webpack",
@@ -17,5 +17,14 @@
     "webpack": "^5.65.0",
     "webpack-cli": "^4.9.1",
     "webpack-dev-server": "^4.7.2"
-  }
+  },
+  "main": "webpack.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rachidelaid/microverse-todo-list.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rachidelaid/microverse-todo-list/issues"
+  },
+  "homepage": "https://github.com/rachidelaid/microverse-todo-list#readme"
 }
