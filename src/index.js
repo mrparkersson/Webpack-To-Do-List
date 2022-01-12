@@ -1,6 +1,5 @@
 import 'material-icons/iconfont/material-icons.css';
 import './style.css';
-import 'material-icons/iconfont/material-icons.css';
 
 const listParent = document.querySelector('.list');
 
@@ -25,9 +24,7 @@ const tasks = [
 function renderHtml() {
   listParent.innerHTML = '';
 
-  tasks
-    .sort((a, b) => a.index - b.index)
-    .forEach((task) => {
+  tasks.sort((a, b) => a.index - b.index).forEach((task) => {
       listParent.innerHTML += `
       <li>
         <div class="content">
