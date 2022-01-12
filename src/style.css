@@ -71,7 +71,7 @@ span:hover,
   color: #000;
 }
 
-.task{
+.task {
   display: flex;
   justify-content: space-between;
 }

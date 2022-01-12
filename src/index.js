@@ -1,12 +1,14 @@
 import 'material-icons/iconfont/material-icons.css';
 import './style.css';
+import './drag';
 
 const listParent = document.querySelector('.list');
 const returnIcon = document.querySelector('.add span');
 const textInput = document.querySelector('.add input');
-const autoRenewIcon = document.querySelector('.head span');
 
-let tasks = [];
+let tasks = localStorage.getItem('todos')
+  ? JSON.parse(localStorage.getItem('todos'))
+  : [];
 
 function renderHtml() {
   listParent.innerHTML = '';
@@ -47,6 +49,8 @@ returnIcon.addEventListener('click', () => {
       index: tasks.length,
     });
 
+    localStorage.setItem('todos', JSON.stringify(tasks));
+
     const updateTasks = () => {
       listParent.innerHTML = '';
       tasks.forEach((task) => {
@@ -74,6 +78,7 @@ returnIcon.addEventListener('click', () => {
           const id = Number(x.parentNode.parentNode.id);
           tasks = tasks.filter((task) => task.index !== id);
           updateTasks();
+          localStorage.setItem('todos', JSON.stringify(tasks));
         })
       );
     };
