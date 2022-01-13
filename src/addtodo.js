@@ -19,7 +19,7 @@ const updateTasks = () => {
        <input class="input" type="text" value='${task.description}' readonly />
      </div>
      <div class="actions">
-       <span class="material-icons drag">more_vert</span>
+       <span class="material-icons drag" id="morevert">more_vert</span>
        <span class="material-icons" id="deleteicon">delete_outline</span>
      </div>
    </li>
@@ -36,12 +36,15 @@ const updateTasks = () => {
     });
   });
   // editing the tasks
-  document.querySelectorAll('.input').forEach((inp) => {
+  document.querySelectorAll('li .input').forEach((inp) => {
     inp.addEventListener('click', () => {
       inp.readOnly = false;
       inp.focus();
+      document.querySelectorAll('#morevert').forEach((more) => {
+        more.style.display = 'none';
+      });
     });
-    inp.addEventListener('input', () => {
+    inp.addEventListener('li input', () => {
       const id = Number(inp.parentNode.parentNode.id);
       const currentTask = tasks.find((task) => task.index === id);
       currentTask.description = inp.value.trim();
