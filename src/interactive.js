@@ -3,7 +3,7 @@ const clearAll = (tasks) => {
 };
 
 const updateCheck = (tasks, index) => {
-  let task = tasks.find((t) => t.index === index);
+  const task = tasks.find((t) => t.index === index);
   task.completed = !task.completed;
   return tasks;
 };
