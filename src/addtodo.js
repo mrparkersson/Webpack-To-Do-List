@@ -38,7 +38,6 @@ const updateTasks = () => {
   // editing the tasks
   document.querySelectorAll('.input').forEach((inp) => {
     inp.addEventListener('click', () => {
-      console.log('inp click');
       inp.readOnly = false;
       inp.focus();
     });
