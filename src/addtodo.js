@@ -44,7 +44,7 @@ const updateTasks = () => {
         more.style.display = 'none';
       });
     });
-    inp.addEventListener('li input', () => {
+    inp.addEventListener('input', () => {
       const id = Number(inp.parentNode.parentNode.id);
       const currentTask = tasks.find((task) => task.index === id);
       currentTask.description = inp.value.trim();
