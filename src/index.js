@@ -49,6 +49,8 @@ returnIcon.addEventListener('click', () => {
       index: tasks.length,
     });
 
+    textInput.value = '';
+
     localStorage.setItem('todos', JSON.stringify(tasks));
 
     const updateTasks = () => {
@@ -81,11 +83,12 @@ returnIcon.addEventListener('click', () => {
           localStorage.setItem('todos', JSON.stringify(tasks));
         });
       });
+      dragDrop(tasks)
     };
     updateTasks();
   }
 });
 
-// deleting an item
+// dragging an item
 
 
