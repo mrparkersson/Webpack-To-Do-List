@@ -81,6 +81,19 @@ returnIcon.addEventListener('click', () => {
   }
 });
 
+document.querySelector('.add input').addEventListener('keydown', (e) => {
+  if (e.key === 'Enter' && textInput.value.length !== 0) {
+    tasks.push({
+      description: textInput.value,
+      completed: false,
+      index: tasks.length,
+    });
+    textInput.value = '';
+  }
+  updateTasks();
+  localStorage.setItem('todos', JSON.stringify(tasks));
+});
+
 clearButton.addEventListener('click', () => {
   tasks = clearAll(tasks);
   updateTasks();
