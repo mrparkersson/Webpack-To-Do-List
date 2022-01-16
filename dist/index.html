@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ToDo List</title>
+  <script defer src="bundle.js"></script></head>
+  <body>
+    <div class="container">
+      <div id="newtask">
+        <div class="topcontent">
+          <h3>Todays's To Do</h3>
+          <a href="#" id="refreshlink"
+            ><img src="./icons/refresh.png" alt="refresh icon" id="refresh"
+          /></a>
+        </div>
+        <span id="line"></span>
+        <input type="text" placeholder="Add to your list..." id="textinput" />
+        <button id="push">Add</button>
+        <div class="listoftodo"></div>
+        <div id="tasks"></div>
+        <div class="completed">
+          <a href="#" id="cleartodo">Clear all completed</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
