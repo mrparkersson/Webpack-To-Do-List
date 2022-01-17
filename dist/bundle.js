@@ -10,13 +10,23 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
+/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/material-icons/iconfont/material-icons.css":
+/*!*******************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/material-icons/iconfont/material-icons.css ***!
+  \*******************************************************************************************************/
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../css-loader/dist/runtime/getUrl.js */ \"./node_modules/css-loader/dist/runtime/getUrl.js\");\n/* harmony import */ var _css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__);\n// Imports\n\n\n\nvar ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! ./material-icons.woff2 */ \"./node_modules/material-icons/iconfont/material-icons.woff2\"), __webpack_require__.b);\nvar ___CSS_LOADER_URL_IMPORT_1___ = new URL(/* asset import */ __webpack_require__(/*! ./material-icons.woff */ \"./node_modules/material-icons/iconfont/material-icons.woff\"), __webpack_require__.b);\nvar ___CSS_LOADER_URL_IMPORT_2___ = new URL(/* asset import */ __webpack_require__(/*! ./material-icons-outlined.woff2 */ \"./node_modules/material-icons/iconfont/material-icons-outlined.woff2\"), __webpack_require__.b);\nvar ___CSS_LOADER_URL_IMPORT_3___ = new URL(/* asset import */ __webpack_require__(/*! ./material-icons-outlined.woff */ \"./node_modules/material-icons/iconfont/material-icons-outlined.woff\"), __webpack_require__.b);\nvar ___CSS_LOADER_URL_IMPORT_4___ = new URL(/* asset import */ __webpack_require__(/*! ./material-icons-round.woff2 */ \"./node_modules/material-icons/iconfont/material-icons-round.woff2\"), __webpack_require__.b);\nvar ___CSS_LOADER_URL_IMPORT_5___ = new URL(/* asset import */ __webpack_require__(/*! ./material-icons-round.woff */ \"./node_modules/material-icons/iconfont/material-icons-round.woff\"), __webpack_require__.b);\nvar ___CSS_LOADER_URL_IMPORT_6___ = new URL(/* asset import */ __webpack_require__(/*! ./material-icons-sharp.woff2 */ \"./node_modules/material-icons/iconfont/material-icons-sharp.woff2\"), __webpack_require__.b);\nvar ___CSS_LOADER_URL_IMPORT_7___ = new URL(/* asset import */ __webpack_require__(/*! ./material-icons-sharp.woff */ \"./node_modules/material-icons/iconfont/material-icons-sharp.woff\"), __webpack_require__.b);\nvar ___CSS_LOADER_URL_IMPORT_8___ = new URL(/* asset import */ __webpack_require__(/*! ./material-icons-two-tone.woff2 */ \"./node_modules/material-icons/iconfont/material-icons-two-tone.woff2\"), __webpack_require__.b);\nvar ___CSS_LOADER_URL_IMPORT_9___ = new URL(/* asset import */ __webpack_require__(/*! ./material-icons-two-tone.woff */ \"./node_modules/material-icons/iconfont/material-icons-two-tone.woff\"), __webpack_require__.b);\nvar ___CSS_LOADER_EXPORT___ = _css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\nvar ___CSS_LOADER_URL_REPLACEMENT_0___ = _css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);\nvar ___CSS_LOADER_URL_REPLACEMENT_1___ = _css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_1___);\nvar ___CSS_LOADER_URL_REPLACEMENT_2___ = _css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_2___);\nvar ___CSS_LOADER_URL_REPLACEMENT_3___ = _css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_3___);\nvar ___CSS_LOADER_URL_REPLACEMENT_4___ = _css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_4___);\nvar ___CSS_LOADER_URL_REPLACEMENT_5___ = _css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_5___);\nvar ___CSS_LOADER_URL_REPLACEMENT_6___ = _css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_6___);\nvar ___CSS_LOADER_URL_REPLACEMENT_7___ = _css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_7___);\nvar ___CSS_LOADER_URL_REPLACEMENT_8___ = _css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_8___);\nvar ___CSS_LOADER_URL_REPLACEMENT_9___ = _css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_9___);\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"@font-face {\\n  font-family: \\\"Material Icons\\\";\\n  font-style: normal;\\n  font-weight: 400;\\n  font-display: block;\\n  src: url(\" + ___CSS_LOADER_URL_REPLACEMENT_0___ + \") format(\\\"woff2\\\"), url(\" + ___CSS_LOADER_URL_REPLACEMENT_1___ + \") format(\\\"woff\\\");\\n}\\n.material-icons {\\n  font-family: \\\"Material Icons\\\";\\n  font-weight: normal;\\n  font-style: normal;\\n  font-size: 24px;\\n  line-height: 1;\\n  letter-spacing: normal;\\n  text-transform: none;\\n  display: inline-block;\\n  white-space: nowrap;\\n  word-wrap: normal;\\n  direction: ltr;\\n  -webkit-font-smoothing: antialiased;\\n  -moz-osx-font-smoothing: grayscale;\\n  text-rendering: optimizeLegibility;\\n  font-feature-settings: \\\"liga\\\";\\n}\\n\\n@font-face {\\n  font-family: \\\"Material Icons Outlined\\\";\\n  font-style: normal;\\n  font-weight: 400;\\n  font-display: block;\\n  src: url(\" + ___CSS_LOADER_URL_REPLACEMENT_2___ + \") format(\\\"woff2\\\"), url(\" + ___CSS_LOADER_URL_REPLACEMENT_3___ + \") format(\\\"woff\\\");\\n}\\n.material-icons-outlined {\\n  font-family: \\\"Material Icons Outlined\\\";\\n  font-weight: normal;\\n  font-style: normal;\\n  font-size: 24px;\\n  line-height: 1;\\n  letter-spacing: normal;\\n  text-transform: none;\\n  display: inline-block;\\n  white-space: nowrap;\\n  word-wrap: normal;\\n  direction: ltr;\\n  -webkit-font-smoothing: antialiased;\\n  -moz-osx-font-smoothing: grayscale;\\n  text-rendering: optimizeLegibility;\\n  font-feature-settings: \\\"liga\\\";\\n}\\n\\n@font-face {\\n  font-family: \\\"Material Icons Round\\\";\\n  font-style: normal;\\n  font-weight: 400;\\n  font-display: block;\\n  src: url(\" + ___CSS_LOADER_URL_REPLACEMENT_4___ + \") format(\\\"woff2\\\"), url(\" + ___CSS_LOADER_URL_REPLACEMENT_5___ + \") format(\\\"woff\\\");\\n}\\n.material-icons-round {\\n  font-family: \\\"Material Icons Round\\\";\\n  font-weight: normal;\\n  font-style: normal;\\n  font-size: 24px;\\n  line-height: 1;\\n  letter-spacing: normal;\\n  text-transform: none;\\n  display: inline-block;\\n  white-space: nowrap;\\n  word-wrap: normal;\\n  direction: ltr;\\n  -webkit-font-smoothing: antialiased;\\n  -moz-osx-font-smoothing: grayscale;\\n  text-rendering: optimizeLegibility;\\n  font-feature-settings: \\\"liga\\\";\\n}\\n\\n@font-face {\\n  font-family: \\\"Material Icons Sharp\\\";\\n  font-style: normal;\\n  font-weight: 400;\\n  font-display: block;\\n  src: url(\" + ___CSS_LOADER_URL_REPLACEMENT_6___ + \") format(\\\"woff2\\\"), url(\" + ___CSS_LOADER_URL_REPLACEMENT_7___ + \") format(\\\"woff\\\");\\n}\\n.material-icons-sharp {\\n  font-family: \\\"Material Icons Sharp\\\";\\n  font-weight: normal;\\n  font-style: normal;\\n  font-size: 24px;\\n  line-height: 1;\\n  letter-spacing: normal;\\n  text-transform: none;\\n  display: inline-block;\\n  white-space: nowrap;\\n  word-wrap: normal;\\n  direction: ltr;\\n  -webkit-font-smoothing: antialiased;\\n  -moz-osx-font-smoothing: grayscale;\\n  text-rendering: optimizeLegibility;\\n  font-feature-settings: \\\"liga\\\";\\n}\\n\\n@font-face {\\n  font-family: \\\"Material Icons Two Tone\\\";\\n  font-style: normal;\\n  font-weight: 400;\\n  font-display: block;\\n  src: url(\" + ___CSS_LOADER_URL_REPLACEMENT_8___ + \") format(\\\"woff2\\\"), url(\" + ___CSS_LOADER_URL_REPLACEMENT_9___ + \") format(\\\"woff\\\");\\n}\\n.material-icons-two-tone {\\n  font-family: \\\"Material Icons Two Tone\\\";\\n  font-weight: normal;\\n  font-style: normal;\\n  font-size: 24px;\\n  line-height: 1;\\n  letter-spacing: normal;\\n  text-transform: none;\\n  display: inline-block;\\n  white-space: nowrap;\\n  word-wrap: normal;\\n  direction: ltr;\\n  -webkit-font-smoothing: antialiased;\\n  -moz-osx-font-smoothing: grayscale;\\n  text-rendering: optimizeLegibility;\\n  font-feature-settings: \\\"liga\\\";\\n}\\n\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://webpacktodolist/./node_modules/material-icons/iconfont/material-icons.css?./node_modules/css-loader/dist/cjs.js");
+
+/***/ }),
+
 /***/ "./node_modules/css-loader/dist/cjs.js!./src/style.css":
 /*!*************************************************************!*\
   !*** ./node_modules/css-loader/dist/cjs.js!./src/style.css ***!
   \*************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"*,\\n*::before,\\n*::after {\\n  padding: 0;\\n  margin: 0;\\n  box-sizing: border-box;\\n}\\n\\nbody {\\n  height: 100vh;\\n  background: rgba(34, 29, 29, 0.105);\\n}\\n\\n.container {\\n  width: 40%;\\n  top: 50%;\\n  left: 50%;\\n  background: white;\\n  border: 2px solid rgba(18, 15, 15, 0.153);\\n  min-width: 450px;\\n  position: absolute;\\n  min-height: 100px;\\n  transform: translate(-50%, -50%);\\n}\\n\\n.checkbox {\\n  display: flex;\\n  flex-direction: row;\\n}\\n\\n.listoftodo ul li {\\n  list-style: none;\\n  border-bottom: 1px solid #dbd8d7;\\n  color: rgba(0, 0, 0, 0.358);\\n  font-size: 19px;\\n  display: flex;\\n  align-items: center;\\n  gap: 15px;\\n  padding: 15px;\\n  margin: 10px;\\n}\\n\\n.completed {\\n  align-items: center;\\n  justify-content: center;\\n  text-align: center;\\n}\\n\\n#cleartodo {\\n  text-decoration: none;\\n  color: rgba(0, 0, 0, 0.303);\\n  font-size: 20px;\\n}\\n\\n#newtask {\\n  position: relative;\\n  padding: 30px 20px;\\n}\\n\\n#textinput {\\n  width: 75%;\\n  font-weight: 500;\\n  font-family: 'Poppins', sans-serif;\\n  font-size: 15px;\\n  border: none;\\n  border-bottom: 1px solid #dbd8d7;\\n  font-style: italic;\\n  padding: 20px;\\n}\\n\\n.task button {\\n  background-color: black;\\n  color: #fff;\\n  border: none;\\n  cursor: pointer;\\n  outline: none;\\n  height: 100%;\\n  width: 40px;\\n  border-radius: 5px;\\n}\\n\\n#newtask input:focus {\\n  outline: none;\\n}\\n\\n#newtask button {\\n  position: relative;\\n  float: right;\\n  font-weight: 500;\\n  font-size: 16px;\\n  background-color: rgba(0, 0, 0, 0.16);\\n  border: none;\\n  color: #fff;\\n  cursor: pointer;\\n  outline: none;\\n  width: 20%;\\n  height: 45px;\\n  font-family: 'Poppins', sans-serif;\\n}\\n\\n#tasks {\\n  border-radius: 10px;\\n  width: 100%;\\n  position: relative;\\n  background-color: #fff;\\n  margin-top: 10px;\\n}\\n\\n.task {\\n  border-radius: 5px;\\n  align-items: center;\\n  justify-content: space-between;\\n  border: 1px solid #939697;\\n  cursor: pointer;\\n  background-color: #c5e1e6;\\n  height: 50px;\\n  margin-bottom: 8px;\\n  padding: 5px 10px;\\n  display: flex;\\n}\\n\\n.task span {\\n  font-family: 'Poppins', sans-serif;\\n  font-size: 15px;\\n  font-weight: 400;\\n}\\n\\n.topcontent img {\\n  width: 17px;\\n  margin-bottom: 13px;\\n}\\n\\n.topcontent h3 {\\n  margin-bottom: 13px;\\n  color: grey;\\n  font-size: 20px;\\n  font-family: 'Times New Roman', Times, serif;\\n}\\n\\n.topcontent {\\n  display: flex;\\n  justify-content: space-between;\\n  align-items: center;\\n  margin-bottom: 10px;\\n  border-bottom: 1px solid #dbd8d7;\\n}\\n\\n#squareicon {\\n  width: 20px;\\n}\\n\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://webpacktodolist/./src/style.css?./node_modules/css-loader/dist/cjs.js");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"*::after,\\n*::before,\\n* {\\n  margin: 0;\\n  padding: 0;\\n  box-sizing: border-box;\\n}\\n\\nbody {\\n  font-family: Arial, Helvetica, sans-serif;\\n  display: flex;\\n  justify-content: center;\\n  align-items: center;\\n  height: 100vh;\\n  color: #505050;\\n}\\n\\n.hide {\\n  display: none;\\n}\\n\\nspan,\\n.clear {\\n  cursor: pointer;\\n}\\n\\nmain {\\n  box-shadow: 0 0 3px 3px rgba(0, 0, 0, 0.2);\\n}\\n\\n.head,\\n.add,\\nli {\\n  display: flex;\\n  justify-content: space-between;\\n  align-items: center;\\n  gap: 170px;\\n  padding: 10px;\\n  border-bottom: 1px solid rgb(230, 230, 230);\\n}\\n\\n.input {\\n  font-family: 'Courier New', Courier, monospace;\\n  font-size: 16px;\\n  border: none;\\n  outline: none;\\n  color: #505050;\\n}\\n\\n.content {\\n  display: flex;\\n  gap: 10px;\\n}\\n\\n.check:checked + .input {\\n  text-decoration: line-through;\\n}\\n\\n.drag {\\n  cursor: move;\\n}\\n\\n.clear {\\n  padding: 10px;\\n  text-align: center;\\n  background-color: rgb(230, 230, 230);\\n}\\n\\nspan:hover,\\n.clear:hover {\\n  color: #000;\\n}\\n\\n.task {\\n  display: flex;\\n  justify-content: space-between;\\n}\\n\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://webpacktodolist/./src/style.css?./node_modules/css-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -30,6 +40,16 @@ eval("\n\n/*\n  MIT License http://www.opensource.org/licenses/mit-license.php\n
 
 /***/ }),
 
+/***/ "./node_modules/css-loader/dist/runtime/getUrl.js":
+/*!********************************************************!*\
+  !*** ./node_modules/css-loader/dist/runtime/getUrl.js ***!
+  \********************************************************/
+/***/ ((module) => {
+
+eval("\n\nmodule.exports = function (url, options) {\n  if (!options) {\n    options = {};\n  }\n\n  if (!url) {\n    return url;\n  }\n\n  url = String(url.__esModule ? url.default : url); // If url is already wrapped in quotes, remove them\n\n  if (/^['\"].*['\"]$/.test(url)) {\n    url = url.slice(1, -1);\n  }\n\n  if (options.hash) {\n    url += options.hash;\n  } // Should url be wrapped?\n  // See https://drafts.csswg.org/css-values-3/#urls\n\n\n  if (/[\"'() \\t\\n]|(%20)/.test(url) || options.needQuotes) {\n    return \"\\\"\".concat(url.replace(/\"/g, '\\\\\"').replace(/\\n/g, \"\\\\n\"), \"\\\"\");\n  }\n\n  return url;\n};\n\n//# sourceURL=webpack://webpacktodolist/./node_modules/css-loader/dist/runtime/getUrl.js?");
+
+/***/ }),
+
 /***/ "./node_modules/css-loader/dist/runtime/noSourceMaps.js":
 /*!**************************************************************!*\
   !*** ./node_modules/css-loader/dist/runtime/noSourceMaps.js ***!
@@ -37,6 +57,16 @@ eval("\n\n/*\n  MIT License http://www.opensource.org/licenses/mit-license.php\n
 /***/ ((module) => {
 
 eval("\n\nmodule.exports = function (i) {\n  return i[1];\n};\n\n//# sourceURL=webpack://webpacktodolist/./node_modules/css-loader/dist/runtime/noSourceMaps.js?");
+
+/***/ }),
+
+/***/ "./node_modules/material-icons/iconfont/material-icons.css":
+/*!*****************************************************************!*\
+  !*** ./node_modules/material-icons/iconfont/material-icons.css ***!
+  \*****************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../../style-loader/dist/runtime/injectStylesIntoStyleTag.js */ \"./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js\");\n/* harmony import */ var _style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !../../style-loader/dist/runtime/styleDomAPI.js */ \"./node_modules/style-loader/dist/runtime/styleDomAPI.js\");\n/* harmony import */ var _style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../style-loader/dist/runtime/insertBySelector.js */ \"./node_modules/style-loader/dist/runtime/insertBySelector.js\");\n/* harmony import */ var _style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! !../../style-loader/dist/runtime/setAttributesWithoutAttributes.js */ \"./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js\");\n/* harmony import */ var _style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3__);\n/* harmony import */ var _style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! !../../style-loader/dist/runtime/insertStyleElement.js */ \"./node_modules/style-loader/dist/runtime/insertStyleElement.js\");\n/* harmony import */ var _style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4__);\n/* harmony import */ var _style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! !../../style-loader/dist/runtime/styleTagTransform.js */ \"./node_modules/style-loader/dist/runtime/styleTagTransform.js\");\n/* harmony import */ var _style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__);\n/* harmony import */ var _css_loader_dist_cjs_js_material_icons_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! !!../../css-loader/dist/cjs.js!./material-icons.css */ \"./node_modules/css-loader/dist/cjs.js!./node_modules/material-icons/iconfont/material-icons.css\");\n\n      \n      \n      \n      \n      \n      \n      \n      \n      \n\nvar options = {};\n\noptions.styleTagTransform = (_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5___default());\noptions.setAttributes = (_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3___default());\n\n      options.insert = _style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2___default().bind(null, \"head\");\n    \noptions.domAPI = (_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1___default());\noptions.insertStyleElement = (_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default());\n\nvar update = _style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_css_loader_dist_cjs_js_material_icons_css__WEBPACK_IMPORTED_MODULE_6__[\"default\"], options);\n\n\n\n\n       /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_css_loader_dist_cjs_js_material_icons_css__WEBPACK_IMPORTED_MODULE_6__[\"default\"] && _css_loader_dist_cjs_js_material_icons_css__WEBPACK_IMPORTED_MODULE_6__[\"default\"].locals ? _css_loader_dist_cjs_js_material_icons_css__WEBPACK_IMPORTED_MODULE_6__[\"default\"].locals : undefined);\n\n\n//# sourceURL=webpack://webpacktodolist/./node_modules/material-icons/iconfont/material-icons.css?");
 
 /***/ }),
 
@@ -110,13 +140,133 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
 
 /***/ }),
 
+/***/ "./src/addtodo.js":
+/*!************************!*\
+  !*** ./src/addtodo.js ***!
+  \************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _interactive__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./interactive */ \"./src/interactive.js\");\n\n\nconst listParent = document.querySelector('.list');\nconst returnIcon = document.querySelector('.add span');\nconst textInput = document.querySelector('.add input');\nconst clearButton = document.querySelector('.clear');\n\nlet tasks = localStorage.getItem('todos')\n  ? JSON.parse(localStorage.getItem('todos'))\n  : [];\n\nconst updateTasks = () => {\n  listParent.innerHTML = '';\n  tasks.forEach((task) => {\n    listParent.innerHTML += `\n   <li draggable =\"true\" id=\"${task.index}\">\n     <div class=\"content\">\n       <input class=\"check\" type=\"checkbox\" ${task.completed ? 'checked' : ''}/>\n       <input class=\"input\" type=\"text\" value='${task.description}' readonly />\n     </div>\n     <div class=\"actions\">\n       <span class=\"material-icons drag\" id=\"morevert\">more_vert</span>\n       <span class=\"material-icons\" id=\"deleteicon\">delete_outline</span>\n     </div>\n   </li>\n   `;\n  });\n\n  const deletButton = document.querySelectorAll('#deleteicon');\n  deletButton.forEach((x) => {\n    x.addEventListener('click', () => {\n      const id = Number(x.parentNode.parentNode.id);\n      tasks = tasks.filter((task) => task.index !== id);\n      tasks = tasks.map((x, i) => ({\n        ...x,\n        index: i,\n      }));\n      updateTasks();\n      localStorage.setItem('todos', JSON.stringify(tasks));\n    });\n  });\n  // editing the tasks\n  document.querySelectorAll('li .input').forEach((inp) => {\n    inp.addEventListener('click', () => {\n      inp.readOnly = false;\n      inp.focus();\n      document.querySelectorAll('#morevert').forEach((more) => {\n        more.style.display = 'none';\n      });\n    });\n    inp.addEventListener('input', () => {\n      const id = Number(inp.parentNode.parentNode.id);\n      const currentTask = tasks.find((task) => task.index === id);\n      currentTask.description = inp.value.trim();\n      localStorage.setItem('todos', JSON.stringify(tasks));\n    });\n  });\n\n  document.querySelectorAll('.check').forEach((check) => {\n    check.addEventListener('change', () => {\n      const id = Number(check.parentNode.parentNode.id);\n      tasks = (0,_interactive__WEBPACK_IMPORTED_MODULE_0__.updateCheck)(tasks, id);\n      localStorage.setItem('todos', JSON.stringify(tasks));\n    });\n  });\n};\n\nupdateTasks();\n\nreturnIcon.addEventListener('click', () => {\n  if (textInput.value.length === 0) {\n    alert('Please Enter a To Do');\n  } else {\n    tasks.push({\n      description: textInput.value,\n      completed: false,\n      index: tasks.length,\n    });\n\n    localStorage.setItem('todos', JSON.stringify(tasks));\n\n    updateTasks();\n\n    textInput.value = '';\n  }\n});\n\ndocument.querySelector('.add input').addEventListener('keydown', (e) => {\n  if (e.key === 'Enter' && textInput.value.length !== 0) {\n    tasks.push({\n      description: textInput.value,\n      completed: false,\n      index: tasks.length,\n    });\n    textInput.value = '';\n  }\n  updateTasks();\n  localStorage.setItem('todos', JSON.stringify(tasks));\n});\n\nclearButton.addEventListener('click', () => {\n  tasks = (0,_interactive__WEBPACK_IMPORTED_MODULE_0__.clearAll)(tasks);\n  tasks = tasks.map((x, i) => ({\n    ...x,\n    index: i,\n  }));\n  updateTasks();\n  localStorage.setItem('todos', JSON.stringify(tasks));\n});\n\n\n//# sourceURL=webpack://webpacktodolist/./src/addtodo.js?");
+
+/***/ }),
+
 /***/ "./src/index.js":
 /*!**********************!*\
   !*** ./src/index.js ***!
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n\n\nconst listOfTodo = document.querySelector('.listoftodo');\n\nconst todoList = [\n  {\n    description: 'wash the dishes',\n    completed: false,\n    index: 0,\n  },\n  {\n    description: 'Complete To Do',\n    completed: false,\n    index: 1,\n  },\n];\n\nfor (let i = 0; i < todoList.length; i += 1) {\n  if (todoList[i].completed === true) {\n    listOfTodo.style.display = 'none';\n  } else {\n    listOfTodo.innerHTML += `\n    \n          <ul>\n          <li><input type=\"checkbox\">${todoList[i].description}</li>\n          <span id=\"line\"></span>\n          </ul>\n          \n          `;\n  }\n}\n\n// ADD AND REMOVE TODO\n\ndocument.querySelector('#push').onclick = function () {\n  if (document.querySelector('#newtask input').value.length === 0) {\n    alert('Please Enter a Task');\n  } else {\n    document.querySelector('#tasks').innerHTML += `\n            <div class=\"task\">\n                <span id=\"taskname\">\n                    ${document.querySelector('#newtask input').value}\n                </span>\n                <button class=\"delete\">\n                    <span>X</span>\n                </button>\n            </div>\n        `;\n\n    const currentTask = document.querySelectorAll('.delete');\n    for (let i = 0; i < currentTask.length; i += 1) {\n      currentTask[i].onclick = function () {\n        this.parentNode.remove();\n      };\n    }\n  }\n};\n\n\n//# sourceURL=webpack://webpacktodolist/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var material_icons_iconfont_material_icons_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! material-icons/iconfont/material-icons.css */ \"./node_modules/material-icons/iconfont/material-icons.css\");\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n/* harmony import */ var _addtodo__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./addtodo */ \"./src/addtodo.js\");\n\n\n\n\n\n//# sourceURL=webpack://webpacktodolist/./src/index.js?");
+
+/***/ }),
+
+/***/ "./src/interactive.js":
+/*!****************************!*\
+  !*** ./src/interactive.js ***!
+  \****************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"updateCheck\": () => (/* binding */ updateCheck),\n/* harmony export */   \"clearAll\": () => (/* binding */ clearAll)\n/* harmony export */ });\nconst clearAll = (tasks) => tasks.filter((task) => !task.completed);\nconst updateCheck = (tasks, index) => {\n  const task = tasks.find((t) => t.index === index);\n  task.completed = !task.completed;\n  return tasks;\n};\n\n\n\n\n//# sourceURL=webpack://webpacktodolist/./src/interactive.js?");
+
+/***/ }),
+
+/***/ "./node_modules/material-icons/iconfont/material-icons-outlined.woff":
+/*!***************************************************************************!*\
+  !*** ./node_modules/material-icons/iconfont/material-icons-outlined.woff ***!
+  \***************************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"5a03bc8fddbe401a2c94.woff\";\n\n//# sourceURL=webpack://webpacktodolist/./node_modules/material-icons/iconfont/material-icons-outlined.woff?");
+
+/***/ }),
+
+/***/ "./node_modules/material-icons/iconfont/material-icons-outlined.woff2":
+/*!****************************************************************************!*\
+  !*** ./node_modules/material-icons/iconfont/material-icons-outlined.woff2 ***!
+  \****************************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"f5618f9870155cc86d9b.woff2\";\n\n//# sourceURL=webpack://webpacktodolist/./node_modules/material-icons/iconfont/material-icons-outlined.woff2?");
+
+/***/ }),
+
+/***/ "./node_modules/material-icons/iconfont/material-icons-round.woff":
+/*!************************************************************************!*\
+  !*** ./node_modules/material-icons/iconfont/material-icons-round.woff ***!
+  \************************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"6d0b4901cad6bce94508.woff\";\n\n//# sourceURL=webpack://webpacktodolist/./node_modules/material-icons/iconfont/material-icons-round.woff?");
+
+/***/ }),
+
+/***/ "./node_modules/material-icons/iconfont/material-icons-round.woff2":
+/*!*************************************************************************!*\
+  !*** ./node_modules/material-icons/iconfont/material-icons-round.woff2 ***!
+  \*************************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"1824e7536dcb2a84ed2d.woff2\";\n\n//# sourceURL=webpack://webpacktodolist/./node_modules/material-icons/iconfont/material-icons-round.woff2?");
+
+/***/ }),
+
+/***/ "./node_modules/material-icons/iconfont/material-icons-sharp.woff":
+/*!************************************************************************!*\
+  !*** ./node_modules/material-icons/iconfont/material-icons-sharp.woff ***!
+  \************************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"74acc8563822a4415550.woff\";\n\n//# sourceURL=webpack://webpacktodolist/./node_modules/material-icons/iconfont/material-icons-sharp.woff?");
+
+/***/ }),
+
+/***/ "./node_modules/material-icons/iconfont/material-icons-sharp.woff2":
+/*!*************************************************************************!*\
+  !*** ./node_modules/material-icons/iconfont/material-icons-sharp.woff2 ***!
+  \*************************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"fccb8ed66da234eb284d.woff2\";\n\n//# sourceURL=webpack://webpacktodolist/./node_modules/material-icons/iconfont/material-icons-sharp.woff2?");
+
+/***/ }),
+
+/***/ "./node_modules/material-icons/iconfont/material-icons-two-tone.woff":
+/*!***************************************************************************!*\
+  !*** ./node_modules/material-icons/iconfont/material-icons-two-tone.woff ***!
+  \***************************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"7b5dc73ccaebf3365a10.woff\";\n\n//# sourceURL=webpack://webpacktodolist/./node_modules/material-icons/iconfont/material-icons-two-tone.woff?");
+
+/***/ }),
+
+/***/ "./node_modules/material-icons/iconfont/material-icons-two-tone.woff2":
+/*!****************************************************************************!*\
+  !*** ./node_modules/material-icons/iconfont/material-icons-two-tone.woff2 ***!
+  \****************************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"c20dedb11294bcf82db6.woff2\";\n\n//# sourceURL=webpack://webpacktodolist/./node_modules/material-icons/iconfont/material-icons-two-tone.woff2?");
+
+/***/ }),
+
+/***/ "./node_modules/material-icons/iconfont/material-icons.woff":
+/*!******************************************************************!*\
+  !*** ./node_modules/material-icons/iconfont/material-icons.woff ***!
+  \******************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"88899cc48af9534ab3fb.woff\";\n\n//# sourceURL=webpack://webpacktodolist/./node_modules/material-icons/iconfont/material-icons.woff?");
+
+/***/ }),
+
+/***/ "./node_modules/material-icons/iconfont/material-icons.woff2":
+/*!*******************************************************************!*\
+  !*** ./node_modules/material-icons/iconfont/material-icons.woff2 ***!
+  \*******************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"fbec73474c1c92fba7af.woff2\";\n\n//# sourceURL=webpack://webpacktodolist/./node_modules/material-icons/iconfont/material-icons.woff2?");
 
 /***/ })
 
@@ -146,6 +296,9 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _sty
 /******/ 		return module.exports;
 /******/ 	}
 /******/ 	
+/******/ 	// expose the modules object (__webpack_modules__)
+/******/ 	__webpack_require__.m = __webpack_modules__;
+/******/ 	
 /************************************************************************/
 /******/ 	/* webpack/runtime/compat get default export */
 /******/ 	(() => {
@@ -171,6 +324,18 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _sty
 /******/ 		};
 /******/ 	})();
 /******/ 	
+/******/ 	/* webpack/runtime/global */
+/******/ 	(() => {
+/******/ 		__webpack_require__.g = (function() {
+/******/ 			if (typeof globalThis === 'object') return globalThis;
+/******/ 			try {
+/******/ 				return this || new Function('return this')();
+/******/ 			} catch (e) {
+/******/ 				if (typeof window === 'object') return window;
+/******/ 			}
+/******/ 		})();
+/******/ 	})();
+/******/ 	
 /******/ 	/* webpack/runtime/hasOwnProperty shorthand */
 /******/ 	(() => {
 /******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
@@ -185,6 +350,52 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _sty
 /******/ 			}
 /******/ 			Object.defineProperty(exports, '__esModule', { value: true });
 /******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/publicPath */
+/******/ 	(() => {
+/******/ 		var scriptUrl;
+/******/ 		if (__webpack_require__.g.importScripts) scriptUrl = __webpack_require__.g.location + "";
+/******/ 		var document = __webpack_require__.g.document;
+/******/ 		if (!scriptUrl && document) {
+/******/ 			if (document.currentScript)
+/******/ 				scriptUrl = document.currentScript.src
+/******/ 			if (!scriptUrl) {
+/******/ 				var scripts = document.getElementsByTagName("script");
+/******/ 				if(scripts.length) scriptUrl = scripts[scripts.length - 1].src
+/******/ 			}
+/******/ 		}
+/******/ 		// When supporting browsers where an automatic publicPath is not supported you must specify an output.publicPath manually via configuration
+/******/ 		// or pass an empty string ("") and set the __webpack_public_path__ variable from your code to use your own logic.
+/******/ 		if (!scriptUrl) throw new Error("Automatic publicPath is not supported in this browser");
+/******/ 		scriptUrl = scriptUrl.replace(/#.*$/, "").replace(/\?.*$/, "").replace(/\/[^\/]+$/, "/");
+/******/ 		__webpack_require__.p = scriptUrl;
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/jsonp chunk loading */
+/******/ 	(() => {
+/******/ 		__webpack_require__.b = document.baseURI || self.location.href;
+/******/ 		
+/******/ 		// object to store loaded and loading chunks
+/******/ 		// undefined = chunk not loaded, null = chunk preloaded/prefetched
+/******/ 		// [resolve, reject, Promise] = chunk loading, 0 = chunk loaded
+/******/ 		var installedChunks = {
+/******/ 			"main": 0
+/******/ 		};
+/******/ 		
+/******/ 		// no chunk on demand loading
+/******/ 		
+/******/ 		// no prefetching
+/******/ 		
+/******/ 		// no preloaded
+/******/ 		
+/******/ 		// no HMR
+/******/ 		
+/******/ 		// no HMR manifest
+/******/ 		
+/******/ 		// no on chunks loaded
+/******/ 		
+/******/ 		// no jsonp function
 /******/ 	})();
 /******/ 	
 /************************************************************************/
