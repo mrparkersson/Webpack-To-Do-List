@@ -31,6 +31,10 @@ const updateTasks = () => {
     x.addEventListener('click', () => {
       const id = Number(x.parentNode.parentNode.id);
       tasks = tasks.filter((task) => task.index !== id);
+      tasks = tasks.map((x, i) => ({
+        ...x,
+        index: i,
+      }));
       updateTasks();
       localStorage.setItem('todos', JSON.stringify(tasks));
     });
@@ -96,6 +100,10 @@ document.querySelector('.add input').addEventListener('keydown', (e) => {
 
 clearButton.addEventListener('click', () => {
   tasks = clearAll(tasks);
+  tasks = tasks.map((x, i) => ({
+    ...x,
+    index: i,
+  }));
   updateTasks();
   localStorage.setItem('todos', JSON.stringify(tasks));
 });
