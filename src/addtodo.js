@@ -67,17 +67,21 @@ const updateTasks = () => {
 
 updateTasks();
 
+const addTask = () => {
+  tasks.push({
+    description: textInput.value,
+    completed: false,
+    index: tasks.length,
+  });
+
+  localStorage.setItem('todos', JSON.stringify(tasks));
+};
+
 returnIcon.addEventListener('click', () => {
   if (textInput.value.length === 0) {
     alert('Please Enter a To Do');
   } else {
-    tasks.push({
-      description: textInput.value,
-      completed: false,
-      index: tasks.length,
-    });
-
-    localStorage.setItem('todos', JSON.stringify(tasks));
+    addTask();
 
     updateTasks();
 
@@ -107,3 +111,5 @@ clearButton.addEventListener('click', () => {
   updateTasks();
   localStorage.setItem('todos', JSON.stringify(tasks));
 });
+
+module.exports = addTask;
