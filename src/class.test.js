@@ -15,10 +15,10 @@ describe('testing add', () => {
 });
 
 describe('testing delete', () => {
-  const deleteIndex = 1;
+  const removeIndex = 1;
 
   test('test if first element is deleted', () => {
-    tasks.remove(deleteIndex);
+    tasks.remove(removeIndex);
     expect(tasks.list.length).toBe(1);
   });
 });
