@@ -37,7 +37,7 @@ describe('testing add', () => {
   });
   test('adding the third task', () => {
     tasks.add({ description: 'task 3' });
-    expect(tasks.list[2].description).toBe('task 3')
+    expect(tasks.list[2].description).toBe('task 3');
   });
 });
 
@@ -59,6 +59,17 @@ describe('testing edit', () => {
   });
 });
 
+describe('testing edit', () => {
+  const tasks = new Tasks();
+  tasks.add({ description: 'task 2' });
+  const currentTask = tasks.list[1];
+  currentTask.description = 'new task 2 description';
+  test('task 2 description should be new task 2 description', () => {
+    tasks.edit(currentTask);
+    expect(tasks.list[1].description).toBe('new task 2 description');
+  });
+});
+
 describe('testing update complete', () => {
   const tasks = new Tasks();
   const currentTask = tasks.list[0];
@@ -76,7 +87,7 @@ describe('testing clearing completed', () => {
   tasks.edit(currentTask);
   test('The list should be empty after clearing', () => {
     tasks.clearCompleted();
-    expect(tasks.list.length).toBe(0);
+    expect(tasks.list.length).toBe(1);
   });
 });
 
