@@ -5,12 +5,17 @@ const tasks = new Tasks();
 describe('testing add', () => {
   test('adding the first task', () => {
     tasks.add({ description: 'task 1' });
-    expect(tasks.list.length).toBe(2);
+    expect(tasks.list.length).toBe(1);
   });
 
   test('adding and checking task description', () => {
     tasks.add({ description: 'task 2' });
     expect(tasks.list[1].description).toBe('task 2');
+  });
+
+  test('Adding the third task', () => {
+    tasks.add({ description: 'task 3' });
+    expect(tasks.list[2].description).toBe('task 3');
   });
 });
 
@@ -19,6 +24,6 @@ describe('testing delete', () => {
 
   test('test if first element is deleted', () => {
     tasks.remove(removeIndex);
-    expect(tasks.list.length).toBe(1);
+    expect(tasks.list.length).toBe(2);
   });
 });
