@@ -6,7 +6,7 @@
   "scripts": {
     "build": "webpack",
     "start": "webpack serve --open",
-    "test": "jest --env=jsdom"
+    "test": "jest --env=jsdom --coverage"
   },
   "keywords": [],
   "author": "",
