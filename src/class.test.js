@@ -35,12 +35,16 @@ describe('testing add', () => {
     tasks.add({ description: 'task 2' });
     expect(tasks.list[1].description).toBe('task 2');
   });
+  test('adding the third task', () => {
+    tasks.add({ description: 'task 3' });
+    expect(tasks.list[2].description).toBe('task 3')
+  });
 });
 
 describe('testing delete', () => {
   test('test if first element is deleted', () => {
     tasks.remove(1);
-    expect(tasks.list.length).toBe(1);
+    expect(tasks.list.length).toBe(2);
   });
 });
 
