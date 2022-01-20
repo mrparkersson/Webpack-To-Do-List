@@ -1,35 +1,29 @@
-import 'material-icons/iconfont/material-icons.css';
-import './style.css';
 import Tasks from './class';
 
-const listParent = document.querySelector('.list');
-const clearAll = document.querySelector('.clear');
-const form = document.querySelector('form');
+const tasks = new Tasks();
 
-const tasks = new Tasks(localStorage.getItem('tasks'));
-
-const saveTasks = () => {
-  localStorage.setItem('tasks', JSON.stringify(tasks.list));
-};
-
-const updateTask = () => {
+const updateTask = (listParent) => {
   listParent.innerHTML = '';
 
   tasks.list
     .sort((a, b) => a.index - b.index)
     .forEach((t) => {
       listParent.innerHTML += `
-      <li id="task-${t.index}" draggable="true">
-        <div class="content">
-          <input class="check" type="checkbox" ${t.completed ? 'checked' : ''}/>
-          <input class="input" type="text" value='${t.description}' readonly />
-        </div>
-        <div class="actions">
-          <span class="material-icons drag">more_vert</span>
-          <span class="material-icons dele">delete_outline</span>
-        </div>
-      </li>
-      `;
+        <li id="task-${t.index}" draggable="true">
+          <div class="content">
+            <input class="check" type="checkbox" ${
+  t.completed ? 'checked' : ''
+}/>
+            <input class="input" type="text" value='${
+  t.description
+}' readonly />
+          </div>
+          <div class="actions">
+            <span class="material-icons drag">more_vert</span>
+            <span class="material-icons dele">delete_outline</span>
+          </div>
+        </li>
+        `;
     });
 
   const lis = document.querySelectorAll('li');
@@ -66,7 +60,6 @@ const updateTask = () => {
       obj.description = inp.value.trim();
 
       tasks.edit(obj);
-      saveTasks();
     });
   });
 
@@ -79,7 +72,6 @@ const updateTask = () => {
       obj.completed = inp.checked;
 
       tasks.edit(obj);
-      saveTasks();
     });
   });
 
@@ -88,29 +80,10 @@ const updateTask = () => {
       const id = Number(delBtn.parentNode.parentNode.id.split('-')[1]);
 
       tasks.remove(id);
-      saveTasks();
+
       delBtn.parentNode.parentNode.remove();
     });
   });
 };
 
-updateTask();
-
-clearAll.addEventListener('click', () => {
-  tasks.clearCompleted();
-  saveTasks();
-  updateTask();
-});
-
-form.addEventListener('submit', (e) => {
-  e.preventDefault();
-
-  tasks.add({
-    description: form.elements.input.value.trim(),
-  });
-  saveTasks();
-
-  form.reset();
-
-  updateTask();
-});
+module.exports = updateTask;

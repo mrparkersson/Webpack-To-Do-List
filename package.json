@@ -1,24 +1,47 @@
 {
   "name": "webpacktodolist",
   "version": "1.0.0",
-  "description": "",
+  "description": "![](https://img.shields.io/badge/mrparkersson-blueviolet)",
   "private": true,
   "scripts": {
     "build": "webpack",
-    "start": "webpack serve --open"
+    "start": "webpack serve --open",
+    "test": "jest --env=jsdom"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@babel/core": "^7.16.7",
+    "@babel/plugin-transform-modules-commonjs": "^7.16.8",
+    "babel-eslint": "^10.1.0",
+    "babel-jest": "^27.4.6",
     "css-loader": "^6.5.1",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.25.4",
+    "hint": "^6.1.9",
     "html-webpack-plugin": "^5.5.0",
+    "jest": "^27.4.7",
     "style-loader": "^3.3.1",
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^21.0.0",
+    "stylelint-csstree-validator": "^1.9.0",
+    "stylelint-scss": "^3.21.0",
     "webpack": "^5.65.0",
     "webpack-cli": "^4.9.1",
     "webpack-dev-server": "^4.7.2"
   },
   "dependencies": {
     "material-icons": "^1.10.5"
-  }
+  },
+  "main": "webpack.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrparkersson/Webpack-To-Do-List.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mrparkersson/Webpack-To-Do-List/issues"
+  },
+  "homepage": "https://github.com/mrparkersson/Webpack-To-Do-List#readme"
 }
