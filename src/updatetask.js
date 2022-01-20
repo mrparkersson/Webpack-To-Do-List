@@ -1,3 +1,7 @@
+import Tasks from './class';
+
+const tasks = new Tasks();
+
 const updateTask = (listParent) => {
   listParent.innerHTML = '';
 
@@ -8,11 +12,11 @@ const updateTask = (listParent) => {
         <li id="task-${t.index}" draggable="true">
           <div class="content">
             <input class="check" type="checkbox" ${
-              t.completed ? 'checked' : ''
-            }/>
+  t.completed ? 'checked' : ''
+}/>
             <input class="input" type="text" value='${
-              t.description
-            }' readonly />
+  t.description
+}' readonly />
           </div>
           <div class="actions">
             <span class="material-icons drag">more_vert</span>
@@ -56,7 +60,6 @@ const updateTask = (listParent) => {
       obj.description = inp.value.trim();
 
       tasks.edit(obj);
-      saveTasks();
     });
   });
 
@@ -69,7 +72,6 @@ const updateTask = (listParent) => {
       obj.completed = inp.checked;
 
       tasks.edit(obj);
-      saveTasks();
     });
   });
 
@@ -78,7 +80,7 @@ const updateTask = (listParent) => {
       const id = Number(delBtn.parentNode.parentNode.id.split('-')[1]);
 
       tasks.remove(id);
-      saveTasks();
+
       delBtn.parentNode.parentNode.remove();
     });
   });
