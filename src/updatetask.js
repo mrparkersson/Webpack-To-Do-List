@@ -56,7 +56,6 @@ const updateTask = (listParent) => {
       obj.description = inp.value.trim();
 
       tasks.edit(obj);
-      saveTasks();
     });
   });
 
@@ -69,7 +68,6 @@ const updateTask = (listParent) => {
       obj.completed = inp.checked;
 
       tasks.edit(obj);
-      saveTasks();
     });
   });
 
@@ -78,7 +76,7 @@ const updateTask = (listParent) => {
       const id = Number(delBtn.parentNode.parentNode.id.split('-')[1]);
 
       tasks.remove(id);
-      saveTasks();
+
       delBtn.parentNode.parentNode.remove();
     });
   });
