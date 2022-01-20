@@ -6,11 +6,7 @@ const listParent = document.querySelector('.list');
 const clearAll = document.querySelector('.clear');
 const form = document.querySelector('form');
 
-const tasks = new Tasks(localStorage.getItem('tasks'));
-
-const saveTasks = () => {
-  localStorage.setItem('tasks', JSON.stringify(tasks.list));
-};
+const tasks = new Tasks();
 
 const updateTask = () => {
   listParent.innerHTML = '';
@@ -66,7 +62,6 @@ const updateTask = () => {
       obj.description = inp.value.trim();
 
       tasks.edit(obj);
-      saveTasks();
     });
   });
 
@@ -79,7 +74,6 @@ const updateTask = () => {
       obj.completed = inp.checked;
 
       tasks.edit(obj);
-      saveTasks();
     });
   });
 
@@ -88,7 +82,7 @@ const updateTask = () => {
       const id = Number(delBtn.parentNode.parentNode.id.split('-')[1]);
 
       tasks.remove(id);
-      saveTasks();
+
       delBtn.parentNode.parentNode.remove();
     });
   });
@@ -98,7 +92,6 @@ updateTask();
 
 clearAll.addEventListener('click', () => {
   tasks.clearCompleted();
-  saveTasks();
   updateTask();
 });
 
@@ -108,7 +101,6 @@ form.addEventListener('submit', (e) => {
   tasks.add({
     description: form.elements.input.value.trim(),
   });
-  saveTasks();
 
   form.reset();
 
