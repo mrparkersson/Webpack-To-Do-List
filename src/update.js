@@ -9,11 +9,11 @@ const updateTask = (tasks) => {
         <li id="task-${t.index}" draggable="true">
           <div class="content">
             <input class="check" type="checkbox" ${
-              t.completed ? 'checked' : ''
-            }/>
+  t.completed ? 'checked' : ''
+}/>
             <input class="input" type="text" value='${
-              t.description
-            }' readonly />
+  t.description
+}' readonly />
           </div>
           <div class="actions">
             <span class="material-icons drag">more_vert</span>
